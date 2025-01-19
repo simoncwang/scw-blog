@@ -8,18 +8,19 @@ import { SpeedInsights } from '@vercel/speed-insights/next'
 import Footer from './components/footer'
 import { baseUrl } from './sitemap'
 
+
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: 'Next.js Portfolio Starter',
+    default: 'scw-blog',
     template: '%s | Next.js Portfolio Starter',
   },
   description: 'This is my portfolio.',
   openGraph: {
-    title: 'My Portfolio',
-    description: 'This is my portfolio.',
+    title: 'My Blog',
+    description: 'This is my blog.',
     url: baseUrl,
-    siteName: 'My Portfolio',
+    siteName: 'My Blog',
     locale: 'en_US',
     type: 'website',
   },
@@ -52,8 +53,8 @@ export default function RootLayout({
         GeistMono.variable
       )}
     >
-      <body className="antialiased max-w-2xl mx-8 mt-8 lg:mx-auto">
-        <main className="flex-auto min-w-0 mt-6 flex flex-col px-4 lg:px-0">
+      <body className="antialiased min-h-screen">
+        <main className="flex-auto min-w-0  max-w-2xl px-8 pt-8 lg:mx-auto flex flex-col lg:px-0">
           <Navbar />
           {children}
           <Footer />

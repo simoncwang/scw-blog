@@ -29,8 +29,72 @@
   }
 }
 
+p {
+  font-size: 16px;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* DARK MODE TOGGLING (temporarily replace auto-media detection) */
 html {
+  --bg-color: rgb(233, 233, 218);
+  --text-color: rgb(69, 0, 31);
+  --heading-color: rgb(197, 90, 37);
+  --date-color: rgb(195, 145, 51);
+  --nav-color: #af885b;
+  --link-color:rgb(195, 145, 51);
   min-width: 360px;
+}
+
+/* Dark mode theme */
+html.dark {
+  --bg-color: rgb(25, 34, 58);
+  --heading-color: rgb(135, 163, 240);
+  --text-color: rgb(178, 207, 219);
+  --date-color:  rgb(134, 154, 210);
+  --nav-color: rgb(134, 154, 210);
+  --link-color:rgb(109, 178, 253);
+}
+
+.prose p {
+  color: var(--text-color);
+  @apply my-4;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+a {
+  color: var(--link-color);
+  @apply hover:underline;
+}
+
+body p {
+  color: var(--text-color);
+}
+
+h1 {
+  color: var(--heading-color);
+}
+
+footer * {
+  color: var(--nav-color);
+}
+
+footer p {
+  color: var(--nav-color);
+}
+
+.nav-container * {
+  color: var(--nav-color);
+}
+
+#date {
+  color: var(--date-color)
 }
 
 .prose .anchor {
@@ -83,9 +147,9 @@ html {
   @apply m-0;
 }
 
-.prose p {
+/* .prose p {
   @apply my-4 text-neutral-800 dark:text-neutral-200;
-}
+} */
 
 .prose h1 {
   @apply text-4xl font-medium tracking-tight mt-6 mb-2;

@@ -19,7 +19,7 @@ export default function Footer() {
   return (
     <footer className="mb-16">
       <hr className="mt-12 mb-0"></hr>
-      <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
+      <ul className="font-sm mt-6 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
         <li className="font-bold ">
         created w/ vercel portfolio starter:
         </li>
@@ -57,7 +57,7 @@ export default function Footer() {
           </a>
         </li>
       </ul>
-      <p className="mt-8 text-neutral-600 dark:text-neutral-300">
+      <p className="mt-8">
         © {new Date().getFullYear()} Simon Wang
       </p>
     </footer>

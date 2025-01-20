@@ -1,15 +1,7 @@
-# Portfolio Blog Starter
+# My Blog in Next.js and Markdwon
 
-This is a porfolio site template complete with a blog. Includes:
+This is my personal blog, created from the original Vercel portfolio starter kit template. Below are details from the original readme for using the template.
 
-- MDX and Markdown support
-- Optimized for SEO (sitemap, robots, JSON-LD schema)
-- RSS Feed
-- Dynamic OG images
-- Syntax highlighting
-- Tailwind v4
-- Vercel Speed Insights / Web Analytics
-- Geist font
 
 ## Demo
 

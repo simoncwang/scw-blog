@@ -24,26 +24,34 @@ export default function Page() {
       </p>
       <p className="mb-4">
         {
-          "In my day-to-day, I am a "
+          "I recently graduated with my "
         }
         <b>
           {
-            "Computer Science Master's student"      
+            "Master's in Computer Science"      
           }
         </b>
         {
-          " at the University of Maryland - College Park. For more info please check out my work in AI/ML and more here on my "
+          " from the University of Maryland - College Park, with focuses around "
+        }
+        <b>
+          {
+            "applied AI and human data interaction. "
+          }
+        </b>
+        {
+          "For more info please check out my work in AI/ML and more here on my "
         }
         {
           <a href="https://simoncwang.github.io/" target="_blank">
           technical portfolio site!
-        </a>
+          </a>
         }
       </p>
      <p className="mb-4">
         <b>
           {
-            "An important note:"      
+            "Important note:"      
           }
         </b>
         {

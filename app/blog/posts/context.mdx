@@ -1,0 +1,68 @@
+---
+title: 'The Next Frontier for Generative AI: Context Engineering as the Key to Unlocking AGI Potential'
+publishedAt: '2025-11-10'
+summary: 'Why having the best context beats having the best model'
+---
+## Introduction
+
+Thus far in the story of generative AI, the majority of effort has been targeted at making models bigger and better, racing to see which company can throw the most compute and data to make their models "smarter." However, as time goes on, we’ve seen diminishing returns on this "Scaling Law" ([Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361)), which used to imply that performance would continue to increase with model size, data, and compute. However, progress has seemingly slowed ([Current AI scaling laws are showing diminishing returns, forcing AI labs to change course](https://techcrunch.com/2024/11/20/ai-scaling-laws-are-showing-diminishing-returns-forcing-ai-labs-to-change-course/)).
+
+Throughout 2025, **agentic AI** has been the hottest trend across every industry and academic field ([What is agentic AI?](https://www.ibm.com/think/topics/agentic-ai)) Various methods and approaches to "equipping" LLMs with better tools and capabilities, leveraging their reasoning abilities to offload decision-making, and employing organizational strategies inspired by human collaboration, have shown incredible improvements to the capability of LLMs.
+
+With each new model released, over-hyped excitement about the next AGI breakthrough has been routinely met with disappointment. Over and over again, we find that by improving prompt engineering, incorporating tool use, or even multi-agent approaches, a massive closed-source frontier actually isn’t as dominant over smaller closed-source models as their investment of resources may suggest ([Small Language Models are the Future of Agentic AI](https://arxiv.org/abs/2506.02153)).
+
+Around the Summer of this year, the term **context engineering** was first coined, summarizing well an overall paradigm shift in our approach to generative AI ([Andrej Karpathy, Tobi Lutke on X](https://x.com/karpathy/status/1937902205765607626?lang=en)).
+
+It is now no longer about who can make the best model, or make the most optimal prompt; instead, the most important element in pushing AI capability to the next level is simply **context**. In other words, how can we create the best environment possible, give access to the most important information, and provide the best possible tools to leverage that context?
+
+## What is context engineering?
+
+Context engineering is the practice of curating and structuring the **environment, tools, and data** that an AI agent interacts with to maximize its performance ([The rise of "context engineering"](https://blog.langchain.com/the-rise-of-context-engineering/)).
+
+This is not just about adding more data or tools—it’s about _strategically integrating_ them to create a seamless, functional ecosystem for AI agents. It’s the difference between a chatbot that can answer questions and one that can _reason_ through complex workflows by accessing internal documents, databases, or real-time data.
+
+## Why Context Engineering Matters: The Agentic AI Paradigm
+
+As a foundation, agentic AI **is** about context engineering. Essentially, to convert a plain-old chatbot into an "agent," we employ context engineering. We make sure that it has access to information it needs to make important insights (RAG, web search, etc.), we provide it with tools to more reliably handle that information (custom tools, MCP servers, API calls), and we provide guidance through prompting and system design to enable collaboration with other agents or long-term memory to handle complex tasks.
+
+Think of this as how we might ensure a human software engineer performs as well as possible at their job. A junior engineer with mastery of tools and access to important data will outperform a senior engineer with outdated tools. For example, this could look like providing training and access to modern database tools, advanced code editors, AI coding agents, etc. Meanwhile, the senior engineer might have better coding knowledge, but if they are using outdated manual spreadsheets, programming from scratch without templates or AI, they will likely perform worse.
+
+Analogously, this is the concept of creating an agentic AI from a simple LLM. We expand the LLM's capabilities by giving them access to tools, autonomy, and real-world integration. This could be giving them a tool to execute SQL queries, web search capabilities, or R. Often, in more complex cases, we orchestrate many instances of these LLM agents with various roles and tools, as if we were managing a group of well-trained employees with different specializations.
+
+## Shift from Model Size to Context Quality
+
+The diminishing returns on model scaling have forced the industry to rethink its approach. While larger models still hold value, their marginal gains are no longer justifiable by the cost of training and deploying them. This has led to a critical shift: the focus is no longer on _how big_ a model is, but _how well_ its context is engineered.
+
+For instance, the latest models are already highly capable, and the gap between open-source and closed-source models has narrowed significantly. This means that the **quality of context**—not the size of the model—has become the decisive factor in performance. A smaller, well-engineered model with access to high-quality data and tools can outperform a larger model with poor context.
+
+This shift is also reflected in industry trends. Leading companies are no longer competing to build the biggest models but are instead racing to create the **"best environment"** for AI agents. This environment includes:
+
+- **Data context**: Access to relevant, up-to-date information (e.g., internal company data, historical records).
+- **Tool integration**: Seamless access to external tools and systems (e.g., databases, APIs, code editors).
+- **Interactivity**: The ability to dynamically adapt to new information or user needs.
+
+The result is a paradigm where **context engineering** becomes the new frontier. It’s not about building bigger models, but about building smarter, more integrated systems that empower AI agents to operate at their peak.
+
+## The Future of Generative AI: A Race for the "Best Environment"
+
+Instead of better models, many leading companies in the space are now racing to sell their platform as the "best environment" or provide the best connection with important data for AI agents, especially in the enterprise context ([Work smarter with your company knowledge in ChatGPT](https://openai.com/index/introducing-company-knowledge/)). Existing workspaces like Google and Slack are some of the leading contenders, due to the large amounts of company data already stored within the existing platform.
+
+For example, if your company already uses Slack to discuss issues and meetings across all of your projects, and an AI agent "lives" within the Slack ecosystem, it will already have access to the most important and highest quality data for your enterprise tasks. Without manually feeding an LLM the context needed for your task, it already knows and has access to every relevant context that has ever been stored within Slack chats and meetings ([Introducing the Agentic OS: How Slack Is Reimagining Work for the AI Era](https://slack.com/blog/news/dreamforce-slack-native-ai)).
+
+Similarly, with Google Workspace, the Gemini Enterprise product offers an incredible value proposition as a result of the many teams that already use the Google suite of tools (Docs, Sheets, Slides, etc.) to conduct their daily tasks [Introducing Gemini Enterprise](https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise). With an LLM agent that can easily access all of this data without leaving the platform, not only is the experience seamless, but the user can get much higher quality results with minimal additional fine-tuning or prompt engineering.
+
+This trend highlights a fundamental shift in the industry: the **"agentic OS"** is no longer a hypothetical concept—it’s becoming a reality. Companies are competing to create platforms where AI agents can live, work, and evolve in real-time, all while leveraging the rich context of the user’s environment.
+
+## Conclusion
+
+The next frontier for generative AI is not about building bigger models or more data—it’s about **context engineering**. By strategically curating the environment, tools, and data that AI agents operate within, we can unlock their full potential and create systems that are not only smarter but also more adaptable to real-world challenges.
+
+As the industry moves toward this new paradigm, the focus will shift from competition over model size to competition over **context quality**. The future of AI lies not in the size of the model, but in the richness of the context it is given to work with.
+
+## Acknowledgements
+
+Much of this article was inspired by discussiong from the podcast: [The AI Daily Brief: Artificial Intelligence News](https://www.youtube.com/@AIDailyBrief).
+
+Episodes referenced:
+- [The Next AI Platform Isn’t a Model — It’s Your Context](https://www.youtube.com/watch?v=Hkdi-zXMZGo)
+- [AI Context Gets Some Major Upgrades](https://www.youtube.com/watch?v=ZGOVzdxNrQg)
